@@ -30,14 +30,14 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "9362009"))
+API_HASH = environ.get("API_HASH", "9ff7fdf8a6a30cc625cfa91d81adce64")
+ADMINS = int(environ.get("ADMINS", "5522344139"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://crazytalkerofficial:BmkIKigE6HT0ugfO@cluster0.grmaufm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://crazytalkerofficial:mTk5LW5Xdl4HjgKl@cluster0.zzursub.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -45,8 +45,8 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "5668342282:AAG6_0Cf52qPRwLRGOMOPnU1QbVBZXTh4_Y")
+BOT_USERNAME = environ.get("BOT_USERNAME", "CD_Filter_Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
